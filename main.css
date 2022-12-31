@@ -1,0 +1,623 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+}
+.first-div{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/IMG_2452.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.first-text, .second-text, .third-text, .forth-text, .a, .b, .c, .d, .e, .f, .g, .h, .i, .j, .k{
+    background-color: rgb(192, 170, 6);
+    height: 15vh;
+    padding: 10px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.616),
+                -0 -2px 4px rgba(0, 0, 0, 0.616);
+}
+.first-text h2, .second-text h2{
+    margin-block-start: 0px;
+    position: relative;
+    text-align: center;
+}
+.second-div{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/IMG_1406.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.third-div{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/IMG_1353.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.forth-div{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/IMG_2387.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.one{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/IMG_20220430_130702.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.two{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/20220313_145423.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.three{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/IMG_20220126_140446_mfnr.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.four{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/IMG_6486.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.five{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/IMG_8607.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.six{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/IMG_20220523_140205.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.seven{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/IMG_6496\ \(2\).jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.eight{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/IMG_8658.jpeg');
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+}
+.nine{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/IMG-20220220-WA0005.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.ten{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/IMG_3682.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.eleven{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/IMG_8619.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.twelve{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/IMG_7763.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.thirteen{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/IMG_20220408_195321_mfnr.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.fourteen{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/IMG_20220312_153231.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.fifteen{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/IMG-20220124-WA0046.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.sixteen{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/IMG_20220124_163657.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.seventeen{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/IMG_20220124_164203.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.eighteen{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/IMG_20220124_164002.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.nineteen{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/IMG_20220124_164126.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.twenty{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/IMG_20211209_173056.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.twenty-one{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/IMG_20211030_175642.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.twenty-two{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/IMG_20211123_101216.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.twenty-three{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/20210712_124946.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.twenty-four{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/20210803_145007.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.twenty-five{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/IMG_20211118_183416.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.twenty-six{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/20210715_133846.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.twenty-seven{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/IMG_20211103_134227.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.twenty-eight{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/IMG_20211118_124441.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.twenty-nine{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/IMG_20211103_134103.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.thirty{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/Snapchat-1811673353.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.thirty-one{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/IMG_2847.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.thirty-two{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/Snapchat-1592735825.jpg');
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+}
+.thirty-three{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/Snapchat-771765733.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.thirty-four{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/20211227_182719.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.thirty-five{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/20210803_144526.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.thirty-six{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/20211229_081432.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.thirty-seven{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/IMG_20220102_133905.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.thirty-eight{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/20210803_144526.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.thirty-nine{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img2/20211023_045108.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.new-1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/20220711_155309_mfnr.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-2{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/20220711_165641.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-3{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/20220725_120554_mfnr.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-4{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/20221023_170723.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-5{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/20221111_175652.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-6{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/20221111_180434.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-7{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/20221113_140545.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-8{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/20221117_141659_mfnr.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-9{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/20221117_155217_mfnr.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-10{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/20221126_143103_mfnr.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-11{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/20221211_144018.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-12{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/DOXA22 N1-257.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-13{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/DOXA22 N1-258.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-14{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/IMG_8164.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-15{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/IMG_8169.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-16{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/IMG_8177.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-17{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/IMG_8178.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-18{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/IMG_8196.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-19{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/IMG_8215.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-20{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/IMG_8224.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-21{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/IMG_8226.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-22{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/IMG_8233.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-23{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/IMG_8236.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-24{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/IMG_8241.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-25{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/IMG_20220306_135745_mfnr.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-26{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/IMG_20220311_171636.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.new-27{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/IMG_20220316_113929_mfnr.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-28{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/IMG_20220406_120643_mfnr.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-29{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/IMG_20220408_195310.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-30{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/IMG_20220523_154742.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.new-31{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img4/IMG_20220604_100703_mfnr.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
